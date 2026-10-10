@@ -30,7 +30,7 @@
 
 ### Вариант 1: Готовый exe
 
-1. Скачай `VSSearchEngine.exe` из [Releases](https://github.com/ТВОЙ-USERNAME/vs-search-engine/releases).
+1. Скачай `VSSearchEngine.exe` из [Releases](https://github.com/VS-prog10/vs-search-engine/releases).
 2. Запусти двойным кликом.
 3. Готово!
 
@@ -52,10 +52,7 @@ python vs_search.py
 
 Нажми «📂 Открыть» рядом с файлом — откроется с выделением.
 
-📸 Скриншот
-(Замени на свой скриншот)
 
-https://screenshot.png/
 
 🗺️ Roadmap
 ☑ Поиск по 5 значениям
