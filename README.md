@@ -25,6 +25,8 @@
 - **Windows 7/10/11** (32 или 64 бит).
 - **Python 3.8+** — только если запускаешь из исходника.
 - **Microsoft Office** — для открытия Excel/Word с выделением (опционально).
+<img width="1152" height="1026" alt="screenshot" src="https://github.com/user-attachments/assets/0e373bae-eccc-4abd-a27e-6eb3ebe801c1" />
+
 
 ## 🛠️ Установка
 
