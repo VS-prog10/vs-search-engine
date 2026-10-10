@@ -1,2 +1,43 @@
-# vs-search-engine
-Универсальный поисковик по файлам Excel, Word и TXT. Поиск по 5 значениям одновременно.
+# VS Search Engine
+
+Универсальный поисковик по локальным файлам Excel, Word и TXT.  
+Ищет до 5 значений **одновременно** — идеально для поиска по таблицам, документам и заметкам.
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Python](https://img.shields.io/badge/python-3.8+-green)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+
+## 🚀 Возможности
+
+- 🔍 **Поиск по 5 значениям одновременно** — «Значение 1» … «Значение 5».
+- 📂 **Поддержка форматов:** Excel (.xlsx), Word (.docx), текст (.txt).
+- 🎨 **Подсветка найденного** — зелёным фоном с жирным шрифтом.
+- 📂 **Открытие файлов с выделением** — Excel (ячейка), Word (абзац), TXT (окно с F3).
+- 📊 **Экспорт отчётов** — в TXT и XLSX.
+- 🌙 **Тёмная/светлая тема** (`Ctrl+D`).
+- 📈 **Прогресс с процентами** и статус-бар.
+- 📌 **Закрепление файлов** — список восстанавливается при запуске.
+- 💾 **Резервные копии** настроек.
+- ⌨️ **Горячие клавиши:** `Ctrl+Enter`, `Ctrl+O`, `Ctrl+E`, `F1`, `F5`.
+
+## 📋 Требования
+
+- **Windows 7/10/11** (32 или 64 бит).
+- **Python 3.8+** — только если запускаешь из исходника.
+- **Microsoft Office** — для открытия Excel/Word с выделением (опционально).
+
+## 🛠️ Установка
+
+### Вариант 1: Готовый exe
+
+1. Скачай `VSSearchEngine.exe` из [Releases](https://github.com/ТВОЙ-USERNAME/vs-search-engine/releases).
+2. Запусти двойным кликом.
+3. Готово!
+
+### Вариант 2: Из исходника
+
+```bash
+git clone https://github.com/ТВОЙ-USERNAME/vs-search-engine.git
+cd vs-search-engine
+pip install openpyxl python-docx pywin32
+python vs_search.py
